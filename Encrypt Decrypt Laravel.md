@@ -1,5 +1,6 @@
-# Backend Action part
+## Backend Action part
 
+```
 <?php
 
 use Illuminate\Contracts\Encryption\DecryptException;
@@ -19,7 +20,8 @@ function action_in_controller(Request $request, $id){
 }
 
 ?>
+```
 
-# Frontend UI part
+## Frontend UI part
 
-<a href="{{ route('users.edit', [ 'id' => encrypt($value->id) ]) }}">Edit User</a>
+```<a href="{{ route('users.edit', [ 'id' => encrypt($value->id) ]) }}">Edit User</a>```
